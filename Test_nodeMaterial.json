@@ -64,19 +64,19 @@
         "y": 380
       },
       {
-        "blockId": 40,
-        "x": -200,
-        "y": 460
-      },
-      {
         "blockId": 269,
         "x": -300,
         "y": 280
+      },
+      {
+        "blockId": 311,
+        "x": -220,
+        "y": 420
       }
     ],
     "frames": [],
-    "x": 576.928339307514,
-    "y": 249.72122651480242,
+    "x": 601.5950263192327,
+    "y": 67.05460053823992,
     "zoom": 1.3991238189225674
   },
   "customType": "BABYLON.NodeMaterial",
@@ -290,7 +290,7 @@
         {
           "name": "factor",
           "inputName": "factor",
-          "targetBlockId": 40,
+          "targetBlockId": 311,
           "targetConnectionName": "output",
           "isExposedOnFrame": true,
           "exposedPortPosition": -1
@@ -335,10 +335,10 @@
     },
     {
       "customType": "BABYLON.InputBlock",
-      "id": 40,
-      "name": "Float",
+      "id": 311,
+      "name": "glowMask",
       "comments": "",
-      "visibleInInspector": false,
+      "visibleInInspector": true,
       "inputs": [],
       "outputs": [
         {
@@ -347,7 +347,6 @@
       ],
       "type": 1,
       "mode": 0,
-      "systemValue": null,
       "animationType": 0,
       "min": 0,
       "max": 0,
