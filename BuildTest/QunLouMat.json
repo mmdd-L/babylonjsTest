@@ -70,8 +70,8 @@
       },
       {
         "blockId": 80,
-        "x": -500,
-        "y": 180
+        "x": -520,
+        "y": 200
       },
       {
         "blockId": 965,
@@ -81,7 +81,7 @@
       {
         "blockId": 966,
         "x": -520,
-        "y": 340
+        "y": 320
       },
       {
         "blockId": 1147,
@@ -95,9 +95,9 @@
       }
     ],
     "frames": [],
-    "x": 877.0137208251954,
-    "y": 11.538213610839904,
-    "zoom": 1.1979
+    "x": 867.8812580609508,
+    "y": 71.41729560382716,
+    "zoom": 1.04608905489
   },
   "customType": "BABYLON.NodeMaterial",
   "outputNodes": [
@@ -333,9 +333,9 @@
     {
       "customType": "BABYLON.InputBlock",
       "id": 80,
-      "name": "Color3",
+      "name": "mainColor",
       "comments": "",
-      "visibleInInspector": false,
+      "visibleInInspector": true,
       "inputs": [],
       "outputs": [
         {
@@ -446,7 +446,7 @@
       "convertToGammaSpace": false,
       "convertToLinearSpace": false,
       "valueType": "number",
-      "value": 1
+      "value": 5
     },
     {
       "customType": "BABYLON.TextureBlock",
